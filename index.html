@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Galería Diseño Gráfico</title>
+</head>
+
+<body>
+
+    <h1>Agregar diseño a la Galería</h1>
+
+    <!-- Formulario para subir imágenes -->
+    <form id="imageForm">
+        <input type="text" id="client" placeholder="Nombre del cliente" required>
+        <textarea id="description" class= "textdescription" placeholder="Descripción del diseño" required></textarea>
+        <input type="file" id="imageFile" accept="image/*" required>
+        <button type="submit">Subir Imagen</button>
+    </form>
+
+    <!-- Botón para recargar la galería -->
+    <button id="reloadButton">Recargar Galería</button>
+
+    <!-- Contenedor de la galería tipo Masonry -->
+    <div id="gallery" class="masonry-grid"></div>
+    <script src="src/service.js"></script>
+
+</body>
+
+</html>
