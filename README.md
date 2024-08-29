@@ -1,7 +1,7 @@
 
-# Hi, I'm Katherine! 👋
+# Hi, I'm Ana! 👋
 
-Hi! My name is Ana. I created this little project while participating in a Full Stack Development bootcamp. I'm excited about reaching my goals in programming with my studies and wanted to apply what I've learned to build this CRUD-based image gallery.
+I created this little project while participating in a Full Stack Development bootcamp. I'm excited about reaching my goals in programming with my studies and wanted to apply what I've learned to build this CRUD-based image gallery.
 # Masonry Image Gallery
 
 ## Overview
