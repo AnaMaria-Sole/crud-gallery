@@ -22,16 +22,16 @@ A local server running on port 3000 with an API endpoint /images that supports G
 ## Installation
 
 
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/AnaMaria-Sole/crud-gallery.git
 
 1. Clone the Repository
 ```bash
- git clone https://github.com/username/repository-name.git
+ git clone https://github.com/AnaMaria-Sole/crud-gallery.git
 
 ```
 2. Navigate to the Project Directory
 ```bash
-cd repository-name
+cd crud-gallery
 
 ```
 3. Open `index.html`
