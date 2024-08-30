@@ -23,9 +23,9 @@ function addImageToGallery(image) {
         <img src="${image.imageUrl}" alt="${image.client}">
         <h3>Cliente: ${image.client}</h3>
         <p>${image.description}</p>
-        <button onclick="editClient('${image.id}')">Editar Nombre</button>
+        <button onclick="editClient('${image.id}')">Editar Cliente</button>
         <button onclick="editDescription('${image.id}')">Editar Descripción</button>
-        <button onclick="editImage('${image.id}')">Editar Imagen</button>
+        <button onclick="editImage('${image.id}')">Cambiar Imagen</button>
         <button onclick="deleteImage('${image.id}')">Eliminar</button>
     `;
 
@@ -62,6 +62,7 @@ document.getElementById('imageForm').addEventListener('submit', async function(e
             body: JSON.stringify(newImage)
         }).then(response => {
             if (response.ok) {
+                fetchImages();
                 addImageToGallery(newImage);
                 document.getElementById('imageForm').reset(); 
             }
